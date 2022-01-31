@@ -69,6 +69,10 @@ function setOps(op) {
 }
 
 function total() {
+  if (!operand) {
+    return;
+  }
+  
   second = screen.textContent;
   if (second === "0" && operand === "÷") {
     alert("Don't divide by 0 fool.");
