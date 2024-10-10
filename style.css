@@ -62,5 +62,6 @@ button {
 }
 
 .number {
+  height: 48px;
   font-size: 30px;
 }
